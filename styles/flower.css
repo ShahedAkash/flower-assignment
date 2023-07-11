@@ -24,6 +24,18 @@
     font-size: 30px;
     font-weight: 800;
 }
+.section-content {
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+    }
+.articale-style{
+    display: flex;
+    justify-content: space-between;
+    }
+.red-word{
+    color: #E55473;
+    }
 
 /* Header Section Style */
 .banner-section{
@@ -52,15 +64,6 @@
 
 /* Featured-section Style */
     /* 1st Section  */
-.featured-section {
-    width: 70%;
-    margin: 100px auto;
-    text-align: center;
-    }
-.featured-articale{
-    display: flex;
-    justify-content: space-between;
-    }
 .pink-article-img {
     width: 200px;
     height: 250px;
@@ -89,5 +92,47 @@
 .hot-deal {
     text-align: center;
     padding-right: 150px;
+    }
+/* Instagram Section */
+.instagram-img{
+    width: 24%;
+    }
+/* Latest Deals Section */
+#latest-deals{
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 60px 0;
+    }
+#latest-deals > input{
+    width: 40%;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 15px 33px;
+    border: none;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 10px;
+    }
+/* Footer section */
+#footer-content {
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 0;
+    }
+#footer-title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+    }
+#footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+    }
+#footer-rights{
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
     }
 
